@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.homepage = 'http://mikhailvs.github.com/ruby-omegle'
   s.description = 'ruby-omegle is a library for interfacing with ' +
                   'omegle.com.'
-  s.files ['LICENSE', 'README', 'lib/omegle.rb']
-  s.license = ['GPL v3']
+  s.files = ['LICENSE', 'README', 'lib/omegle.rb']
+  s.licenses = ['GPL v3']
   s.add_dependency 'json', '>=1.0.0'
 end
