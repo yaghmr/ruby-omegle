@@ -1,0 +1,11 @@
+ruby-omegle is a library for interacting with omegle.com.
+
+Example:
+
+require 'omegle'
+
+Omegle.start(:host => 'cardassia.omegle.com') do |omegle|
+  omegle.listen do |event|
+    puts event.inspect
+  end
+end
