@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'ruby-omegle'
-  s.version = '0.1.2'
+  s.version = '0.1.3'
   s.date = '2011-07-25'
   s.authors = ["Mikhail Slyusarev"]
   s.email = 'slyusarevmikhail@gmail.com'
