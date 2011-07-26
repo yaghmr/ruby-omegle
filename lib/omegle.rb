@@ -24,6 +24,8 @@ require 'json'
 # Class for handling connections with omegle.
 
 class Omegle
+  attr_accessor :key
+
   # Establish connection here to the omegle host
   # (ie. omegle.com or cardassia.omegle.com).
   def initialize options = {}
