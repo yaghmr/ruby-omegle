@@ -1,7 +1,10 @@
 ruby-omegle is a library for interacting with omegle.com.
 
 Example:
-<pre>
+
+
+
+```
 require 'omegle'
 
 Omegle.start(:host => 'cardassia.omegle.com') do |omegle|
@@ -26,4 +29,6 @@ omegle.listen do |event|
 end
 
 omegle.disconnect
-</pre>
+
+```
+
