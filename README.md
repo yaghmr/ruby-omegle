@@ -20,6 +20,7 @@ end
 # or like this
 
 omegle = Omegle.new :host => 'omegle.com'
+omegle.start
 omegle.typing
 omegle.send 'hello stranger'
 omegle.stopped_typing
