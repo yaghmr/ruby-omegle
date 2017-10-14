@@ -7,7 +7,7 @@ Example:
 ```
 require 'omegle'
 
-Omegle.start(:host => 'cardassia.omegle.com') do |omegle|
+Omegle.start(:host => 'front1.omegle.com') do |omegle|
   omegle.typing
   omegle.send 'hello stranger'
   omegle.stopped_typing
