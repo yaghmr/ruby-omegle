@@ -44,7 +44,8 @@ class Omegle
 
   # Make a GET request to <omegle url>/start to get an id.
   def start
-    @id = @omegle.get('/start').body[1..6]
+    @id = @omegle.get('/start').body
+    @id.gsub!(/\A"|"\Z/, '')
   end
 
   # POST to <omegle url>/events to get events from Stranger.
